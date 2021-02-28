@@ -1,12 +1,25 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
-    padding: 20px 2px 0px 2px;
+    padding: 5px 2px 2px 5px;
     background: #f3f3f3;
 }
 
 button {
     font-family: 'Arvo';
     font-size: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff5a5;
+    background-color: #343a40;
+    padding: 0.5%;
+    height: 80px;
+    margin-bottom: 10px;
 }
 
 .footer {
