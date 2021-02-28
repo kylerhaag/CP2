@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Weather Page</title>
+    <title>Holiday Almanac</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
     <link rel="stylesheet" href="/styles.css">
@@ -11,13 +11,23 @@
 
 <body>
 
-    <h1>Check out the Weather</h1>
+    <h1>World Countries and Holiday Almanac</h1>
     <form>
-        <label>Enter a U.S. city</label>
-        <input id="weatherInput" type="text"></input><br/>
-        <input id="weatherSubmit" type="submit" value="Submit"></input>
+
+        <label>Please enter "Holidays" "Languages" or "Countries"</label>
+        <input id="searchCatergory" type="text" value="Countries"></input><br/><br/>
+
+        <label>Enter a year (ie. 1995)</label>
+        <input id="yearDate" type="text" value="2021"></input><br/><br/>
+
+        <label>Enter a country by its two-letter <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO Code</a></label>
+        <input id="countryId" type="text" value="US"></input><br/><br/>
+
+        <input id="submission" type="submit" value="submit"></input><br/>
+
+        <br/>
     </form>
-    <div id="weatherResults">
+    <div id="languageResults">
     </div>
 
     <div class='row'>
@@ -33,7 +43,7 @@
     <div class="footer">
 
         <div>Website designed by Kyler Haag. <br> Check out Kyler's code on
-            <a href="https://github.com/kylerhaag/260Lab2.git">GitHub</a>
+            <a href="https://github.com/kylerhaag/CP2">GitHub</a>
         </div>
     </div>
 </body>
